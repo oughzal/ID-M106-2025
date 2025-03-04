@@ -1,3 +1,4 @@
+ #Exercice 1
 A = int(input("Entrez la valeur de A : "))
 B = float(input("Entrez la valeur de B : "))
 
