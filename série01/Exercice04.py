@@ -9,3 +9,4 @@ print("Le péremètre est : ",P)
 print("Le péremètre est : ",P," et la surface est : ",S)
 print("La surface est : ", S)
 print(f"Le périmètre est : {P} et la surface est : {S}") # f-string
+
