@@ -1,0 +1,12 @@
+Algorithme exercice02
+var note : réel
+Début
+	    ecrire("Donner la note : ")
+	    lire(note)
+	    
+	    Si note >= 0  et note <= 20 Alors
+	        Ecrire("La note est valide")
+	    sinon
+	        Ecrire("La note est invalide")
+	    FinSi
+Fin

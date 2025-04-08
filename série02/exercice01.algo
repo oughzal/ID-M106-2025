@@ -1,0 +1,13 @@
+Algorithme exercice01
+var T : réel
+Début
+	    Ecrire("Donner la temperature : ")
+	    lire(T)
+	    Si T <= 0 alors
+	        ecrire("Solide")
+	    sinonSi T < 100 alors
+	        ecrire("Liquide")
+	    sinon
+	        ecrire("Gaz")
+	    FinSi
+Fin

@@ -1,0 +1,52 @@
+Algorithme Exercice03
+var m : entier
+Début
+	    ecrire("donner le N° du mois : ")
+	    lire(m)
+	    
+	    Si m = 1 alors 
+	        ecrireln("Janvier")
+	    sinonSi m =2 alors
+	        ecrireln("Fevrier")
+	    sinonSi m=3 alors
+	       ecrireln("Mars")
+	    sinonSi m=4 alors
+	       ecrireln("Avril")
+	    sinonSi m=5 alors
+	       ecrireln("Mai")
+	    sinonSi m=6 alors
+	       ecrireln("Juin")
+	    sinonSi m=7 alors
+	       ecrireln("Juillet")
+	    sinonSi m=8 alors
+	       ecrireln("Aout")
+	    sinonSi m=9 alors
+	       ecrireln("Septembre")
+	    sinonSi m=10 alors
+	       ecrireln("Octobre")
+	    sinonSi m=11 alors
+	       ecrireln("Novombre")
+	    sinonSi m=12 alors
+	       ecrireln("Décembre")
+	    sinon
+	       ecrireln("Erreur : N° du mois incorrecte")
+	    FinSi
+	    
+	    selon m 
+	        1 : ecrireln("Janvier")
+	        2 : ecrireln("Fevrieer")
+	        3 : ecrireln("Mars")
+	        4 : ecrireln("Avril")
+	        5 : ecrireln("Mai")
+	        6 : ecrireln("Juin")
+	        7 : ecrireln("Juillet")
+	        8 : ecrireln("Aout")
+	        9 : ecrireln("Septembre")
+	        10 : ecrireln("octobre")
+	        11 : ecrireln("novembre")
+	        12 : ecrireln("Décembre")
+	        sinon : ecrireln("Erreur : N° du mois incorrecte")
+	    finSelon
+	    
+	    
+Fin

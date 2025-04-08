@@ -1,0 +1,16 @@
+#Exercice 3
+m = int(input("donner le N° du mois : "))
+match m : 
+    case 1 : print("Janvier")
+    case 2 : print("Fevrieer")
+    case 3 : print("Mars")
+    case 4 : print("Avril")
+    case 5 : print("Mai")
+    case 6 : print("Juin")
+    case 7 : print("Juillet")
+    case 8 : print("Aout")
+    case 9 : print("Septembre")
+    case 10 : print("octobre")
+    case 11 : print("novembre")
+    case 12 : print("Décembre")
+    case _ : print("Erreur : N° du mois incorrecte")
