@@ -6,3 +6,4 @@ elif T < 100 :
     print("Liquide")
 else :
     print("Gaz")
+

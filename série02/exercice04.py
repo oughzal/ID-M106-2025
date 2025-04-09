@@ -1,5 +1,4 @@
-# ecrire()
-# lire(c)
+#Exercice 4
 c = input("donner un caractère : ")
 # Si c >= '0' et c<='9' alors
 if c>='0' and c<= '9':
