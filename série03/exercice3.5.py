@@ -1,5 +1,4 @@
-# ecrire()
-# lire(N)
+# ecrire 3v2
 N = int(input("Donner N : "))
 U = 1 
 # pour i de 1 à N Faire
